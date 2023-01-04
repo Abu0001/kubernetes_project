@@ -7,4 +7,4 @@ RUN unzip 2130_waso_strategy.zip
 RUN cp -rvf 2130_waso_strategy/* .
 RUN rm -rf 2130_waso_strategy 2130_waso_strategy.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
